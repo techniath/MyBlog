@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <b-navbar toggleable="lg" type="light" variant="faded">
-      <b-navbar-brand data-aos="fade-down" data-aos-duration="2000" href="#"
+      <b-navbar-brand v-scroll-reveal="{ delay: 300 }" href="#"
         >Faizan Mohammed</b-navbar-brand
       >
 
@@ -9,7 +9,7 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="#showcase">Home</b-nav-item>
+          <b-nav-item href="#home">Home</b-nav-item>
           <b-nav-item href="#about">About</b-nav-item>
           <b-nav-item href="#contact">Contact</b-nav-item>
         </b-navbar-nav>

@@ -30,7 +30,7 @@
               </p>
               <br />
               <div class="phone-align-btn">
-              <b-button class="btn btn-primary">Contact me</b-button>
+              <b-button @click="toContactForm()" class="btn btn-primary">Contact me</b-button>
               </div>
             </div>
           </div>
@@ -80,6 +80,18 @@
     </section>
   </div>
 </template>
+<script>
+export default {
+  methods: {
+    toContactForm() {
+      document.getElementById('contact').scrollIntoView({
+        behavior: 'smooth',
+        block: 'end',
+      })
+    }
+  }
+}
+</script>
 <style scoped>
 img {
   width: 90%;

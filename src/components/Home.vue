@@ -1,5 +1,5 @@
 <template>
-  <section id="showcase">
+  <section id="home">
     <div class="row">
       <div class="col-md-6 col-sm-6">
         <div
@@ -49,12 +49,12 @@
 </template>
 <script>
 export default {
-  name: "ShowCase",
+  name: "Home",
 };
 </script>
 
 <style scoped>
-#showcase h1 {
+#home h1 {
   font-size: 50px;
   margin-bottom: 20px;
 }
@@ -72,12 +72,12 @@ p {
   font-family: Roboto;
 }
 
-#showcase img {
+#home img {
   width: 90%;
   margin-left: 60px;
   size: 50%;
 }
-#showcase .showcase-right {
+#home .showcase-right {
   margin-top: 90px;
 }
 section {

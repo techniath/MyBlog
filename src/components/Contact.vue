@@ -65,16 +65,12 @@ export default {
         this.email +
         " Below is the message " +
         this.message,
-      errors: [],
     };
   },
 
   methods: {
     submit(e) {
       if (!this.name || !this.email || !this.message) {
-        this.errors.push(
-          "Fields missing, Please enter the required information."
-        );
         this.$swal(
           "INVALID INPUT",
           "Please enter the required information",
