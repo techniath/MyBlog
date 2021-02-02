@@ -1,0 +1,116 @@
+<template>
+  <div>
+    <section id="about">
+      <div id="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <div
+              class="info-left"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
+              <img class="phone-align-image" src="../assets/hoody-image.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div
+              class="info-right"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
+              <h2 class="phone-align-text">A little more about me...</h2>
+              <p class="phone-align-text">
+                Apart from being a Software developer, I am also a ISSA
+                Certified Elite trainer and Nutritionist. I have trained
+                numerous clients all over the world. <br /><br />I do online
+                trainings and provide free meal plans according to your goals.
+                Reach out to me to chat about both the Worlds.
+                <br/>
+                <p class="phone-align-text">Funfact: I have more experience as a Fitness trainer than as a Software developer.</p>
+              </p>
+              <br />
+              <div class="phone-align-btn">
+              <b-button class="btn btn-primary">Contact me</b-button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="info2">
+      <div id="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <div
+              class="info-left"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
+              <h2>Latest Update - As a Software developer</h2>
+              <p>
+                Currently I am working fulltime, developing web application for Department of Transportation and freelancing for a Medical transporation company.<br/>
+                My high level stack that I use frequently...
+                <br/> <br/>
+                <ul class="b">
+                  <li>Spring Boot</li>
+                  <li>Javascript/VueJS</li>
+                  <li>Azure</li>
+                  <li>REDIS</li>
+                  <li>GCP/Firebase</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div
+              class="info-right"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
+              <h2>As a Fitness trainer</h2>
+              <p>
+                Since the COVID-19, not only I had to reorganize my workout schedule but also the approach to workout as whole. 
+                I am an advocate of Time under tension and Hypertrophy, so I am biased towards in-gym training. How'ver COVID-19 forced me to start bodyweight training and Calisthenics and I must say I was missing out on lot of things...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</template>
+<style scoped>
+img {
+  width: 90%;
+  margin-left: 60px;
+  size: 50%;
+}
+#about .info-right {
+  margin-top: 90px;
+}
+section {
+  margin-top: 70px;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+#info2 {
+  margin: 20px 60px 60px 70px;
+}
+ul.b {
+  list-style-type: square;
+}
+@media (max-width: 550px) {
+  .phone-align-text{
+  padding-left: 30px 
+}
+.phone-align-btn{
+  text-align: center;
+}
+.phone-align-image{
+  padding-right: 40px
+}
+}
+
+
+</style>
