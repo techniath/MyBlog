@@ -9,7 +9,7 @@
         >
           <img
             class="phone-align-image"
-            src="../assets/beard-man.svg"
+            src="../assets/home-image.jpeg"
             alt="IMAGE"
           />
         </div>
@@ -25,13 +25,13 @@
           </h1>
           <p>
             Hi! My name is Faizan Mohammed. I am a Fullstack Software developer
-            and a freelancer. I have diverse set of skills and not limited to
-            Java, Javascript & Frameworks, Python & more.. <br />
+            and a freelancer. I have diverse set of skills ranging from Java,
+            Javascript & Frameworks to Cloud technologies and more.. <br />
             <br />
             I primarily use Java, VueJS and GCP/Firebase for the Fullstack
-            development depending on the project size. I am always open to
-            learning new technologies, Please download my resume to learn more
-            about my Stack.
+            development depending on the project requirements. I am always open
+            to learning new technologies, Please download my resume to learn
+            more about my Stack.
           </p>
         </div>
         <br />

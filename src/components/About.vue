@@ -9,7 +9,8 @@
               data-aos="fade-right"
               data-aos-duration="2000"
             >
-              <img class="phone-align-image" src="../assets/hoody-image.jpeg" alt="" />
+            <br/> <br/>
+              <img class="phone-align-image" src="../assets/running-design.jpeg" alt="" />
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
@@ -73,6 +74,7 @@
                 Since the COVID-19, not only I had to reorganize my workout schedule but also the approach to workout as whole. 
                 I am an advocate of Time under tension and Hypertrophy, so I am biased towards in-gym training. How'ver COVID-19 forced me to start bodyweight training and Calisthenics and I must say I was missing out on lot of things...
               </p>
+              <img class="animated-gif" src="../assets/Cert_Logo.gif" alt="">
             </div>
           </div>
         </div>
@@ -122,6 +124,10 @@ ul.b {
 .phone-align-image{
   padding-right: 40px
 }
+}
+img.animated-gif{
+  width: 120px;
+  height: auto;
 }
 
 

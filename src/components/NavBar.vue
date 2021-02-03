@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <b-navbar toggleable="lg" type="light" variant="faded">
-      <b-navbar-brand v-scroll-reveal="{ delay: 300 }" href="#"
+      <b-navbar-brand v-scroll-reveal="{ delay: 300 }" href="/"
         >Faizan Mohammed</b-navbar-brand
       >
 
