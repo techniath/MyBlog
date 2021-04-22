@@ -24,17 +24,17 @@
             Welcome
           </h1>
           <p>
-            Hi! I am Faizan Mohammed currently living in Pennsylvania, USA. I am a Fullstack Software developer
-            and a freelancer.<br />
+            Hi! I am Faizan Mohammed currently living in Pennsylvania, USA. I am a Fullstack Software developer with 4+ years of Industry experience
+            and an aspiring freelancer.<br />
             <br />
-            When developing web apps, I mostly use Java's Spring framework for the backend. But for smaller to mid size projects which donot
-            involve complex logic and are not really required as per the project specs, I use Backend as service platforms primarily Google's Firebase. 
+            When developing web apps, I mostly use Java and Spring framework for the backend. But for smaller to mid size projects which donot
+            involve complex logic, I prefer to use Backend as service platforms like Google's Firebase. 
             For front end I use VueJS or NuxtJS in combination with
             CSS frameworks and libraries like Buefy, bootstrap.
             <br/> <br/>
-            Did not find the tech-stack you are looking for on that list? Don't worry! I use the appropriate tech stack that fits the project's requirements.
+            Didn't find the tech-stack you are looking for? Don't worry! I use the appropriate tech stack that fits the project's requirements.
             I am always open
-            to learning new technologies or discuss the trends, Contact below.
+            to learning new technologies or discuss the trends, Please browse through my Time Line below and feel free to Contact me.
           </p>
         </div>
         <br />
@@ -44,8 +44,8 @@
             class="btn btn-primary"
             data-aos="fade-up"
             data-aos-duration="2000"
-            href="#contact"
-            >Contact me</b-button
+            href="#timeline"
+            >My Timeline</b-button
           >
         </div>
         <div class="phone-align-btn pad-left">
@@ -53,8 +53,8 @@
             class="btn btn-primary"
             data-aos="fade-up"
             data-aos-duration="2000"
-            href="#timeline"
-            >My Timeline</b-button
+            href="#contact"
+            >Contact me</b-button
           >
         </div>
       </div>
