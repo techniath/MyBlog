@@ -44,7 +44,7 @@
             class="btn btn-primary"
             data-aos="fade-up"
             data-aos-duration="2000"
-            href="#timeline"
+            @click="toMyTimeLine()"
             >My Timeline</b-button
           >
         </div>
@@ -53,7 +53,7 @@
             class="btn btn-primary"
             data-aos="fade-up"
             data-aos-duration="2000"
-            href="#contact"
+            @click="toContactForm()"
             >Contact me</b-button
           >
         </div>
@@ -68,9 +68,18 @@ export default {
   name: "Home",
 
   methods: {
-    toResume() {
-      this.$router.push("/contact");
+    toMyTimeLine() {
+      document.getElementById('timeline').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      })
     },
+    toContactForm() {
+      document.getElementById('contact').scrollIntoView({
+        behavior: 'smooth',
+        block: 'end',
+      })
+    }
   },
 };
 </script>

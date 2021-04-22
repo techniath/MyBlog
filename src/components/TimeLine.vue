@@ -1,5 +1,6 @@
 <template>
     <main id="timeline">
+  <br/>
   <h3>My Timeline</h3>
   <br/>
   <section class="timeline">

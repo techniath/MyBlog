@@ -64,7 +64,7 @@
                   <li>Docker</li>
                   <li>Oracle</li>
                   & more... 
-                  <a href="#contact"> Contact me</a> for my resume.
+                  <a @click="toContactForm()"> Contact me</a> for my resume.
               </ul>
               </p>
             </div>

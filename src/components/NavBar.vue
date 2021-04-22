@@ -9,10 +9,10 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="#home">Home</b-nav-item>
-          <b-nav-item href="#about">About</b-nav-item>
-          <b-nav-item href="#timeline">Time Line</b-nav-item>
-          <b-nav-item href="#contact">Contact</b-nav-item>
+          <b-nav-item @click="toHome()">Home</b-nav-item>
+          <b-nav-item @click="toAboutMe()">About</b-nav-item>
+          <b-nav-item @click="toMyTimeLine()">Time Line</b-nav-item>
+          <b-nav-item @click="toContactForm()">Contact</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -21,6 +21,32 @@
 <script>
 export default {
   name: "NavBar",
+  methods: {
+    toMyTimeLine() {
+      document.getElementById('timeline').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      })
+    },
+    toContactForm() {
+      document.getElementById('contact').scrollIntoView({
+        behavior: 'smooth',
+        block: 'end',
+      })
+    },
+    toAboutMe() {
+      document.getElementById('about').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      })
+    },
+    toHome() {
+      document.getElementById('home').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      })
+    }
+  },
 };
 </script>
 <style scoped>
