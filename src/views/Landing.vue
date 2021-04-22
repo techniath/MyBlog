@@ -1,6 +1,7 @@
 <template>
   <div>
-    <router-view></router-view>
+    <NavBar /> <Home /> <Testimonial /> <TimeLine/> <About /> <Contact />
+    <Footer />
   </div>
 </template>
 <script>
@@ -16,5 +17,4 @@ export default {
   },
 };
 </script>
-@import'~bootstrap/dist/css/bootstrap.css'
 <style scoped></style>

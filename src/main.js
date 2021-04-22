@@ -18,6 +18,7 @@ Vue.use(IconsPlugin);
 Vue.use(VueScrollReveal);
 Vue.use(VueSweetalert2);
 
+
 Vue.config.productionTip = false;
 
 new Vue({

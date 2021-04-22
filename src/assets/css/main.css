@@ -53,6 +53,7 @@ section {
   background: rgb(255, 255, 255);
   border: 0;
   font-family: Poppins;
+  font-size: 20px;
 }
 b-navbar-brand {
   font-size: 20px;

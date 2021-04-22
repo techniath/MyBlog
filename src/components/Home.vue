@@ -24,32 +24,54 @@
             Welcome
           </h1>
           <p>
-            Hi! My name is Faizan Mohammed. I am a Fullstack Software developer
-            and a freelancer. I have diverse set of skills ranging from Java,
-            Javascript & Frameworks to Cloud technologies and more.. <br />
+            Hi! I am Faizan Mohammed currently living in Pennsylvania, USA. I am a Fullstack Software developer
+            and a freelancer.<br />
             <br />
-            I primarily use Java, VueJS and GCP/Firebase for the Fullstack
-            development depending on the project requirements. I am always open
-            to learning new technologies, Please download my resume to learn
-            more about my Stack.
+            When developing web apps, I mostly use Java's Spring framework for the backend. But for smaller to mid size projects which donot
+            involve complex logic and are not really required as per the project specs, I use Backend as service platforms primarily Google's Firebase. 
+            For front end I use VueJS or NuxtJS in combination with
+            CSS frameworks and libraries like Buefy, bootstrap.
+            <br/> <br/>
+            Did not find the tech-stack you are looking for on that list? Don't worry! I use the appropriate tech stack that fits the project's requirements.
+            I am always open
+            to learning new technologies or discuss the trends, Contact below.
           </p>
         </div>
         <br />
-        <div class="phone-align-btn">
+      <div class="row is-7">
+        <div class="phone-align-btn pad-left">
           <b-button
             class="btn btn-primary"
             data-aos="fade-up"
             data-aos-duration="2000"
-            >My Resume</b-button
+            href="#contact"
+            >Contact me</b-button
+          >
+        </div>
+        <div class="phone-align-btn pad-left">
+          <b-button
+            class="btn btn-primary"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            href="#timeline"
+            >My Timeline</b-button
           >
         </div>
       </div>
+      </div>
+      
     </div>
   </section>
 </template>
 <script>
 export default {
   name: "Home",
+
+  methods: {
+    toResume() {
+      this.$router.push("/contact");
+    },
+  },
 };
 </script>
 
@@ -98,6 +120,9 @@ section {
     text-align: center;
   }
 }
+.pad-left {
+    padding-left: 2em;
+  }
 
 #showcase {
   max-width: 100vw;
