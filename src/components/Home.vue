@@ -24,17 +24,20 @@
             Welcome
           </h1>
           <p>
-            Hi! I am Faizan Mohammed currently living in Pennsylvania, USA. I am a Fullstack Software developer with 4+ years of Industry experience
-            and an aspiring freelancer.<br />
+            Hi! My name is Faizan Mohammed and I am currently residing in Pennsylvania, USA. I
+            am a Full Stack Software Engineer with 4+ years of industry experience and also an
+            aspiring freelance developer.<br />
             <br />
-            When developing web apps, I mostly use Java and Spring framework for the backend. But for smaller to mid size projects which donot
-            involve complex logic, I prefer to use Backend as service platforms like Google's Firebase. 
-            For front end I use VueJS or NuxtJS in combination with
-            CSS frameworks and libraries like Buefy, bootstrap.
+            When developing web applications, I primarily use Java and Spring Framework for the
+            back-end on large scale projects. On smaller to mid-sized projects, with less complex
+            business logic, I prefer to use Backend-as-a-Service (BaaS) platforms, such as Google&#39;s
+            Firebase. For the front-end, I use Vue.js and Nuxt.js in combination with CSS
+            frameworks and libraries, such as Buefy and Bootstrap.
             <br/> <br/>
-            Didn't find the tech-stack you are looking for? Don't worry! I use the appropriate tech stack that fits the project's requirements.
-            I am always open
-            to learning new technologies or discuss the trends, Please browse through my Time Line below and feel free to Contact me.
+            Didn't find the tech stack you are looking for? Don't worry! I use the appropriate tech
+            stack that fits the project's requirements. I am always open to learning new
+            technologies or discussing the trends. Please browse through my work timeline below
+            and feel free to contact me.
           </p>
         </div>
         <br />

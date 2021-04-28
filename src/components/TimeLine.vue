@@ -50,30 +50,30 @@ export default {
       timeline_data_experience: [
         {
           "company":"Deloitte USDC, Full Stack Developer",
-          "About":"Working at Deloitte as a Full Stack Developer on the MVDLS (Dept Of Transportation) project. Revamping the existing Legacy code application to Modern Java Microservices architecture.",
+          "About":"Working at Deloitte as a Full Stack Engineer on the MVDLS (Dept. of Transportation) project. Revamping the existing legacy code application into modern Java Microservices architecture.",
           "stack":"Java, Spring Framework, Microservices, Hibernate, Oracle, JDBC, HTML, CSS, JavaScript, VueJS, Docker, Kubernetes, Azure, Jenkins, REST, SOAP, REDIS, GIT.",
           "yearStart":"2019",
           "yearEnd":"Now"
         },
         {
           "company":"Freelancer",
-          "About":"Since my college days, I had a goal of having my own website/blog. However, I took my skills and converted the hobby into profession. It helped me to explore the avenues of web development for small to mid level applications/blogs. It helped me in improving my code quality, deciding on the frameworks and technical stack based on project requirements and more...",
+          "About":"Since my college days, I had a goal of having my own website/blog. However, I took my skills and converted the hobby into a profession. It helped me to explore the avenues of web development for small to mid-sized applications/blogs. With this experience, I have significantly improved my code quality and decision making for the right technical stack to use, based on project requirements and more.",
           "stack":"Java, UI/UX, HTML, CSS, JavaScript, VueJS, NuxtJs, Firebase, GCP, Firestore, NodeJS, Python.",
-          "project1" : " - Developed the website for a Trucking agency which is spread across USA, CANADA and MEXICO. Apart from the website, developed an application to allow the employees to fill their timesheets and add notes which assists the company in tracking the hours and generating payroll.",
-          "project2" : " - I was approached by my previous Employer to design and develop website for Non Emergency Medical Transportation company. The Admin panel is still under development which would track the incoming rides and time duration. I plan to use Analytics to determine the rides being requested by age group.",
+          "project1" : " - Developed a website for a trucking agency, which is spread across USA, Canada, and Mexico. Apart from the website, I have developed an application to allow the employees to fill their timesheets and add notes, which assists the company in tracking the hours and generating payroll.",
+          "project2" : " - I was approached by my previous employer to design and develop a website for a non-emergency, medical transportation company. The admin panel is still under development, which would track the incoming rides and time duration. I plan to use analytics to determine the rides being requested by various age groups.",
           "yearStart":"2020",
           "yearEnd":"Now"
         },
         {
           "company":"Cup Foods, Java Developer",
-          "About":"At this project I have worked to replace the older middleware application IBM Messaging Queues to Web Services using Spring Boot in-order to improve the performance and also to modernize the legacy application via web services for better maintainability and scalability.",
+          "About":"For this project I have worked to replace the older middleware application, IBM Messaging Queues, to Web Services using Spring Boot in order to improve the performance and also to modernize the legacy application via web services for better maintainability and scalability.",
           "stack":"Java, VueJS, Spring Framework, Microservices, GCP, MySQL, PGSQL.",
           "yearStart":"2018",
           "yearEnd":"2019"
         },  
         {
           "company":"St Cloud State University, Research Assistant",
-          "About":"In SCSU’s Learning Resources services, developed a web interface using HTML, CSS and JavaScript with Spring MVC framework which allows users to view usage of library resources stored in MS SQL Server DB. Developed Data Cubes using SQL Server Analysis Services (SSAS), ETL operations using SQL Server Integration Services (SSIS) and Generate reports using SQL Server Reporting Services (SSRS)",
+          "About":"In SCSU’s Learning Resources services, I have developed a web interface using HTML, CSS and JavaScript with Spring MVC Framework, which allows users to view usage of library resources stored in a MSSQL Server DB. I have also developed Data Cubes using SQL Server Analysis Services (SSAS), ETL operations using SQL Server Integration Services (SSIS) and generated reports using SQL Server Reporting Services (SSRS).",
           "stack":"HTML, CSS, JavaScript, SSRS, SSIS, SSAS, JAVA, MSSQL, Spring Framework.",
           "yearStart":"2016",
           "yearEnd":"2018"

@@ -21,10 +21,10 @@
             >
               <h2 class="phone-align-text">A little more about me...</h2>
               <p class="phone-align-text">
-                Apart from being a Software developer, I am also a ISSA
+                Apart from being a Software developer, I am also an ISSA
                 Certified Elite trainer and Nutritionist. Its not a profession but a
-                hobby.Feel free to reach out to me to chat about
-                about both the Worlds.
+                hobby. Feel free to reach out to me to chat about
+                about both Worlds.
                 <br/>
                 <p class="phone-align-text">Funfact: I have more experience as a Fitness trainer than as a Software developer.</p>
               </p>
@@ -50,7 +50,7 @@
               <h2>Latest Update - As a Software developer</h2>
               <p>
                 Currently I am working fulltime, developing web application for Department of Transportation and freelancing for a Medical transporation company.<br/>
-                My high level stack that I use frequently...
+                My high-level stack that I use frequently...
                 <br/> <br/>
                 <ul class="b">
                   <li>Spring Boot</li>
@@ -62,7 +62,7 @@
                   <li>GIT</li>
                   <li>Jenkins</li>
                   <li>Docker</li>
-                  <li>Oracle</li>
+                  <li>Oracle DB</li>
                   & more... 
                   <a @click="toContactForm()"> Contact me</a> for my resume.
               </ul>
@@ -79,7 +79,7 @@
               <p>
                 Since the COVID-19, not only I had to reorganize my workout schedule but also the approach to workout as whole. 
                 I am an advocate of Time under tension and Hypertrophy, so I am biased towards in-gym training. <br/>
-                How'ver COVID-19 forced me to start bodyweight training and Calisthenics and I must say I was missing out on lot of things...
+                However COVID-19 forced me to start bodyweight training and Calisthenics and I must say I was missing out on lot of things...
               </p>
               <img class="animated-gif" src="../assets/Cert_Logo.gif" alt="">
             </div>
