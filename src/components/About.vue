@@ -38,7 +38,7 @@
       </div>
     </section>
     <hr />
-    <section id="info2">
+    <!-- <section id="info2">
       <div id="container">
         <div class="row">
           <div class="col-md-6 col-sm-6">
@@ -86,7 +86,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 <script>
@@ -112,7 +112,7 @@ img {
 }
 section {
   margin-top: 70px;
-  font-size: 16px;
+  font-size: 18px;
   overflow-x: hidden;
 }
 #info2 {

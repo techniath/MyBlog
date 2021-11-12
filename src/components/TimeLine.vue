@@ -14,9 +14,13 @@
         <br/>
         <div>{{ info.About }}</div>
         <br/>
-        <div v-if="info.project1"><a href="https://elitetransportationpa.com/" target="_blank" style="color:#4e9bfa"> Elite Transportation </a> {{info.project1}} </div>
+        <div v-if="info.project1"><a href="https://doormeat.com/" target="_blank" style="color:#4e9bfa"> Door Meat</a> {{info.project1}} </div>
         <br/>
-        <div v-if="info.project2"><a href="https://drivingmissdaisy.com/" target="_blank" style="color:#4e9bfa"> Driving Miss Daisy Transportation </a> {{info.project2}} </div>
+        <div v-if="info.project2"><a href="https://elitetransportationpa.com/" target="_blank" style="color:#4e9bfa"> Elite Transportation </a> {{info.project1}} </div>
+        <br/>
+        <div v-if="info.project3"><a href="https://drivingmissdaisy.com/" target="_blank" style="color:#4e9bfa"> Driving Miss Daisy Transportation </a> {{info.project2}} </div>
+        <br/>
+        <div v-if="info.project4"><a href="https://dreamerschildcare.com/" target="_blank" style="color:#4e9bfa"> Dreamers Child Care </a> {{info.project3}} </div>
         <br/>
         <div>  <strong>Tech Stack: </strong>{{ info.stack }}</div>
         <div class="year">
@@ -57,10 +61,12 @@ export default {
         },
         {
           "company":"Freelancer",
-          "About":"Since my college days, I had a goal of having my own website/blog. However, I took my skills and converted the hobby into a profession. It helped me to explore the avenues of web development for small to mid-sized applications/blogs. With this experience, I have significantly improved my code quality and decision making for the right technical stack to use, based on project requirements and more.",
+          "About":"Since my college days, I had a goal of having my own website/blog. However, I took my skills and converted the hobby into a profession. It helped me to explore the avenues of web development for small to mid-sized applications/blogs. With this experience, I have significantly improved my code quality and decision making under intense pressure.",
           "stack":"Java, UI/UX, HTML, CSS, JavaScript, VueJS, NuxtJs, Firebase, GCP, Firestore, NodeJS, Python.",
-          "project1" : " - Developed a website for a trucking agency, which is spread across USA, Canada, and Mexico. Apart from the website, I have developed an application to allow the employees to fill their timesheets and add notes, which assists the company in tracking the hours and generating payroll.",
-          "project2" : " - I was approached by my previous employer to design and develop a website for a non-emergency, medical transportation company. The admin panel is still under development, which would track the incoming rides and time duration. I plan to use analytics to determine the rides being requested by various age groups.",
+          "project1" : " - Door Meat, a meat delivery/subscription service. This is my personal project and an attempt on my start up idea. Although its still under development and has been deployed for some specific occasion, I plan on building in to something big one day. Its built using NuxtJS/VueJS and Firebase, integrated with Stripe for payment services.",
+          "project2" : " - Developed a website for a trucking agency, which is spread across USA, Canada, and Mexico. Apart from the website, I have developed an application to allow the employees to fill their timesheets and add notes, which assists the company in tracking the hours and generating payroll.",
+          "project3" : " - I was approached by my previous employer to design and develop a website for a non-emergency, medical transportation company. The admin panel is still under development, which would track the incoming rides and time duration. I plan to use analytics to determine the rides being requested by various age groups.",
+          "project4" : " - I had an opportunity to develop a Day care website and integrate with Shark Tank famed startup 'Bright Wheel'. I improved it performance and SEO ranking using NuxtJS Server side rendering abilities.",
           "yearStart":"2020",
           "yearEnd":"Now"
         },

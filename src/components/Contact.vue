@@ -109,7 +109,6 @@ section {
   margin-left: 70px;
 }
 #contact {
-  background: url(../assets/footer.jpeg);
   padding: 40px;
   color: #fff;
   border-top: #333 7px solid;

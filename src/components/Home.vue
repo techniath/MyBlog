@@ -24,20 +24,17 @@
             Welcome
           </h1>
           <p>
-            Hi! My name is Faizan Mohammed and I am currently residing in Pennsylvania, USA. I
-            am a Full Stack Software Engineer with 4+ years of industry experience and also an
-            aspiring freelance developer.<br />
+            Hi! I am Faizan Mohammed. I
+            am a Full Stack Software Engineer and a ICREPS Certified Master trainer and a Certified ISSA Elite Trainer.<br />
             <br />
             When developing web applications, I primarily use Java and Spring Framework for the
-            back-end on large scale projects. On smaller to mid-sized projects, with less complex
-            business logic, I prefer to use Backend-as-a-Service (BaaS) platforms, such as Google&#39;s
-            Firebase. For the front-end, I use Vue.js and Nuxt.js in combination with CSS
-            frameworks and libraries, such as Buefy and Bootstrap.
+            back-end on large scale projects. On smaller to mid-sized projects, I prefer to use Backend-as-a-Service (BaaS) platforms, such as Google&#39;s
+            Firebase. For the front-end, I use NuxtJS / VueJS in combination with CSS
+            frameworks and libraries.
             <br/> <br/>
-            Didn't find the tech stack you are looking for? Don't worry! I use the appropriate tech
-            stack that fits the project's requirements. I am always open to learning new
-            technologies or discussing the trends. Please browse through my work timeline below
-            and feel free to contact me.
+            When it comes to developing and improving Fitness lifestyle, I am big advocate of Time under tension methodology and specialize in Hypertrophy training.
+            <br/> <br/>
+            Feel free to reach out to discuss about both the worlds :)
           </p>
         </div>
         <br />
@@ -116,7 +113,7 @@ p {
 }
 section {
   overflow-x: hidden;
-  font-size: 16px;
+  font-size: 18px;
 }
 @media (max-width: 550px) {
   section {
